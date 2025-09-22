@@ -15,8 +15,8 @@ A demo project that simulates how research informatics teams (like CB2) can supp
 
 ```mermaid
 flowchart TD
-    A[Synthetic Data (Synthea CSVs)] --> B[ETL Pipeline (Python)]
-    B --> C[PostgreSQL/MariaDB Database]
+    A[Synthetic Data] --> B[ETL Pipeline]
+    B --> C[MariaDB Database]
     C --> D[FastAPI Backend]
     D --> E[Researchers / API Clients]
     D --> F[Reports & Visualizations]
